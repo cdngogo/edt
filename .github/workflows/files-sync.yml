@@ -24,7 +24,7 @@ jobs:
       # 步骤 2: 添加上游仓库为远程仓库
       - name: Add upstream repo
         run: |
-          git remote add upstream https://github.com/cmliu/edgetunnel.git
+          git remote add upstream https://github.com/yutian81/edgetunnel-cmliu.git
           git fetch upstream
 
       # 步骤 3: 强制覆盖或创建本地文件
